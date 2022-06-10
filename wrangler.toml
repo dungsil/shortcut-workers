@@ -1,0 +1,15 @@
+name = "shortcut"
+type = "javascript"
+
+account_id = "e3360d1b48a1cbc3ad19926f1d18b37c"
+workers_dev = true
+route = ""
+zone_id = ""
+compatibility_date = "2022-06-10"
+
+kv_namespaces = [
+    { binding = "STORAGE", id = "dc1823f8f39748ff8fa8e53104399687", preview_id = "dc1823f8f39748ff8fa8e53104399687" }
+]
+
+[env.production]
+routes = ["http://kyg.kr/s/*", "https://kyg.kr/s/*"]
