@@ -13,6 +13,6 @@
   },
   "devDependencies": {
     "@cloudflare/wrangler": "1.19.12",
-    "prettier": "1.19.1"
+    "prettier": "2.6.2"
   }
 }
