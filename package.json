@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "wrangler dev",
     "format": "prettier --write '**/*.{js,md}'",
-    "publish": "wrangler publish"
+    "deploy": "wrangler publish"
   },
   "devDependencies": {
     "@cloudflare/wrangler": "1.19.12",
