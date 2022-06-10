@@ -2,11 +2,11 @@ lockfileVersion: 5.4
 
 specifiers:
   '@cloudflare/wrangler': 1.19.12
-  prettier: 1.19.1
+  prettier: 2.6.2
 
 devDependencies:
   '@cloudflare/wrangler': 1.19.12
-  prettier: 1.19.1
+  prettier: 2.6.2
 
 packages:
 
@@ -131,9 +131,9 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /prettier/1.19.1:
-    resolution: {integrity: sha512-s7PoyDv/II1ObgQunCbB9PdLmUcBZcnWOcxDh7O0N/UwDEsHyqkW+Qh28jW+mVuCdx7gLB0BotYI1Y6uI9iyew==}
-    engines: {node: '>=4'}
+  /prettier/2.6.2:
+    resolution: {integrity: sha512-PkUpF+qoXTqhOeWL9fu7As8LXsIUZ1WYaJiY/a7McAQzxjk82OF0tibkFXVCDImZtWxbvojFjerkiLb0/q8mew==}
+    engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
 
