@@ -12,7 +12,7 @@
     "publish": "wrangler publish"
   },
   "devDependencies": {
-    "@cloudflare/wrangler": "^1.19.12",
-    "prettier": "^1.18.2"
+    "@cloudflare/wrangler": "1.19.12",
+    "prettier": "1.19.1"
   }
 }
