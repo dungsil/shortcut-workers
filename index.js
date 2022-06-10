@@ -8,7 +8,7 @@ addEventListener('fetch', event => {
  */
 async function handleRedirect(key) {
   if (key === '') {
-    return redirect()
+    return redirect(undefined)
   }
 
   const location = await STORAGE.get(key)
@@ -16,7 +16,7 @@ async function handleRedirect(key) {
 }
 
 /**
- * @param {string} location
+ * @param {string | undefined} location
  * @returns {Response}
  */
 function redirect (location) {
